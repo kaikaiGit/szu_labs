@@ -1,0 +1,10 @@
+^C:\USERS\24312\DESKTOP\计算机图形学\实验1\实验一留空代码\CMAKEFILES\C3140EAD62F1FD7721B05AF8D19E5C38\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SC:/Users/24312/Desktop/计算机图形学/实验1/实验一留空代码 -BC:/Users/24312/Desktop/计算机图形学/实验1/实验一留空代码 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/24312/Desktop/计算机图形学/实验1/实验一留空代码/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

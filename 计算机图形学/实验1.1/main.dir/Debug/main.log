@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/24312/Desktop/计算机图形学/实验1.1/CMakeLists.txt
+  InitShader.cpp
+C:\Users\24312\Desktop\计算机图形学\实验1.1\include\Angel.h(71,40): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+  main.cpp
+C:\Users\24312\Desktop\计算机图形学\实验1.1\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\24312\Desktop\计算机图形学\实验1.1\include\Angel.h(71,40): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+  正在生成代码...
+  glad.c
+  main.vcxproj -> C:\Users\24312\Desktop\计算机图形学\实验1.1\Debug\main.exe

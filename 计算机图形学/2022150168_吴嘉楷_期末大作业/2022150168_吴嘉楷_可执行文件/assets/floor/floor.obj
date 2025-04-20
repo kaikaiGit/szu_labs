@@ -1,0 +1,30 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 12.08.2023 15:20:23
+
+mtllib Mrf-Pavement Set11.mtl
+
+#
+# object Mrf_Pavement_Set11
+#
+
+v  -150.0000 0.0000 -150.0000
+v  -150.0000 0.0000 150.0000
+v  150.0000 0.0000 150.0000
+v  150.0000 0.0000 -150.0000
+# 4 vertices
+
+vn 0.0000 1.0000 -0.0000
+# 1 vertex normals
+
+vt -0.2500 -0.2500 0.5000
+vt 1.2500 -0.2500 0.5000
+vt 1.2500 1.2500 0.5000
+vt -0.2500 1.2500 0.5000
+# 4 texture coords
+
+g Mrf_Pavement_Set11
+usemtl wire_177148027
+s 1
+f 1/1/1 2/2/1 3/3/1 4/4/1 
+# 1 polygons
+
