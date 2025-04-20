@@ -1,0 +1,35 @@
+table {
+  width: 650px;
+  height: 350px;
+  box-sizing: border-box;
+  border-top: 4px solid #808080;
+  border-left: 4px solid #808080;
+  border-right: 4px solid #2c2c2c;
+  border-bottom: 4px solid #2c2c2c;
+  margin: 40px auto;
+}
+table td {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  transition: all 0.3s;
+}
+table .a1 {
+  background-color: #330;
+}
+table .a2 {
+  background-color: #530;
+}
+table .a3 {
+  background-color: #730;
+}
+table .a4 {
+  background-color: #930;
+}
+table .a5 {
+  background-color: #a30;
+}
+table td:hover {
+  transform: translatey(-2px);
+  color: gray;
+}

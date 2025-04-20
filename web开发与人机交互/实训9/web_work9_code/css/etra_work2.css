@@ -1,0 +1,24 @@
+.banner {
+  width: 400px;
+  height: 230px;
+  padding: 15px 64px;
+}
+.banner h3 {
+  text-align: center;
+  line-height: 50px;
+}
+.banner label {
+  margin: 5px 0px;
+}
+.banner label:nth-child(2) {
+  margin-left: 16px ;
+}
+.banner input {
+  padding-left: 5px;
+}
+.banner .bt {
+  margin: 15px 0 0 80px;
+}
+.banner .bt .btn {
+  margin-right: 16px;
+}

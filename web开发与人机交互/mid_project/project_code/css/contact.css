@@ -1,0 +1,94 @@
+body {
+  background-color: #eee;
+}
+body .banner {
+  width: 1200px;
+  margin: 12px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+body .banner hr {
+  margin: 0 14px;
+}
+body .banner h3 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+body .banner .content {
+  margin: 0 auto;
+  width: 750px;
+}
+body .banner .content .words {
+  margin-bottom: 40px;
+}
+body .banner .content .words p {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 0;
+  color: #666;
+}
+body .banner .content .words p span {
+  color: #fa6400;
+}
+body .banner .content .survey .ques {
+  margin-bottom: 40px;
+}
+body .banner .content .survey .ques .text {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+body .banner .content .survey .ques .text .red {
+  margin-top: 3px;
+  color: #ff0000;
+}
+body .banner .content .survey .ques .text span {
+  font-weight: 700;
+}
+body .banner .content .survey .ques .text div {
+  margin-left: 5px;
+}
+body .banner .content .survey .ques .bottom {
+  padding-left: 29px;
+}
+body .banner .content .survey .ques .bottom textarea {
+  width: 694px;
+  height: 150px;
+  padding: 4px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  resize: none;
+}
+body .banner .content .survey .ques2 button {
+  box-sizing: content-box;
+  height: 30px;
+  padding: 0px 12px;
+  margin-right: 8px;
+  color: #2c61ff;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: transparent;
+  border: 1px solid #2c61ff;
+  border-radius: 16px;
+}
+body .banner .content .survey .ques2 button i {
+  font-size: 14px;
+  margin-right: 3px;
+}
+body .banner .content .survey .ques2 .botton span {
+  font-size: 14px;
+  color: #999;
+}
+body .banner .content .survey .ques3 .bottom textarea {
+  height: 40px;
+}
+body .banner .content .btn {
+  display: block;
+  width: 110px;
+  border-radius: 20px;
+  margin: 0 auto;
+}

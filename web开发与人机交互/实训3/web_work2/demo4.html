@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo4</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="shortcut icon" href="./szu.ico" type="image/x-icon" />
+    <style>
+      .banner {
+        width: 1100px;
+        height: 1100px;
+        margin: 10px auto;
+        padding: 0 10px;
+      }
+      h2 {
+        line-height: 60px;
+        text-align: center;
+      }
+      .banner ul {
+        display: flex;
+        justify-content: right;
+        margin: 10px auto;
+        width: 40%;
+        border: 1px solid saddlebrown;
+        border-radius: 5px;
+        background-color: white;
+      }
+      .banner ul li:first-child {
+        flex: 1;
+        margin-left: 10px;
+        line-height: 30px;
+        padding-left: 30px;
+        background-image: url(./szu.ico);
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: 0 3px;
+      }
+      .banner .nav a {
+        display: block;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+      .banner .nav a:hover {
+        background-color: #e7e8ea;
+      }
+      .banner ul li:last-child {
+        margin-right: 5px;
+      }
+      .content .course {
+        margin: 20px 0;
+      }
+      .content .course p {
+        text-indent: 2em;
+      }
+
+      .content .course a:hover {
+        background-color: rgb(243, 140, 240);
+      }
+      .bottom {
+        margin-top: 220px;
+        font-size: 12px;
+        color: #888888;
+      }
+      .bottom a:hover {
+        color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <h2>专业课程导航</h2>
+      <div class="nav">
+        <ul>
+          <li>导航栏</li>
+          <li><a href="#English" id="e">英语</a></li>
+          <li><a href="#Math" id="m">高数</a></li>
+          <li><a href="#physics" id="p">大学物理</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="course" id="English">
+          <h3>英语</h3>
+          <p>
+            基础英语、高级英语、报刊选读、视听、口语、英语写作、翻译理论与实践、语言理论、语言学概论、主要英语国家文学史及文学作品选读、主要英语国家国情等。
+            <a href="#e">返回</a>
+          </p>
+        </div>
+        <div class="course" id="Math">
+          <h3>高数</h3>
+          <p>
+            《高等数学》课程介绍随着科学技术的迅猛发展，数学正日益成为各学科进行科学研究的重要手段和工具。高等数学是近代数学的基础，是理科各专业和经济管理专业类学生的必修课，也是在现代科学技术、经济管理、人文科学中应用最广泛的一门课程。因此学好这门课程对学生今后的发展是至关重要的。本课程是学生进入大学后学习的第一门重要的数学基础课。通过本课程的教学，使学生掌握处理数学问题的思想和方法，培养学生科学思维能力，同时为后续课程的学习奠定良好的基础。
+            <a href="#m">返回</a>
+          </p>
+        </div>
+        <div class="course" id="physics">
+          <h3>大学物理</h3>
+          <p>
+            以物理学基础为内容的大学物理课程，是理工科个专业学生一门重要的通识性的必修基础课。大学物理课程既为学生打好必要的物理基础，又在培养学生科学的世界观，增强学生分析问题和解决问题的能力，培养学生的探索精神、创新意识等方面，具有其他课程不能替代的重要作用。
+            <a href="#p">返回</a>
+          </p>
+        </div>
+      </div>
+      <div class="bottom" style="text-align: center">
+        <tr>
+          <td class="tbbottom tbcolor5" valign="top">
+            <br /><br /><font style="font-size: 13px">
+              <a href="http://news.szu.edu.cn">深大新闻网</a>
+              ｜
+              <a href="http://www1.szu.edu.cn/board/">公文通</a>
+              ｜
+              <a href="http://210.39.3.155:9090/goLogin.do">OA系统</a>
+              ｜
+              <a href="http://www.szu.edu.cn/yxjg/xbxy.htm">院系设置</a>
+              ｜
+              <a href="http://www.szu.edu.cn/yxjg/znbm.htm">职能部门</a>
+              ｜
+              <a href="https://www1.szu.edu.cn/view.asp?id=12">教师事务</a>
+              ｜
+              <a href="https://www1.szu.edu.cn/view.asp?id=13">学生事务</a>
+              ｜
+              <a href="https://www1.szu.edu.cn/tv">荔园生活</a>
+              ｜
+              <a href="https://www1.szu.edu.cn/nc">网上服务</a>
+              ｜
+              <a
+                href="https://drcom.szu.edu.cn/"
+                target="https://www1.szu.edu.cn/_blank"
+                >教工区上网</a
+              >
+              ｜
+              <a href="https://www1.szu.edu.cn/nc/speedtest/" target="_blank"
+                >网速测试</a
+              ></font
+            >
+            <br />　咨询电话：26536114、26536190　校内报警：26537119　中航物业：26732006　心理咨询：26978022、26958879(24小时)
+            <br />　学生区网络：26414134(电信)、18476328678(移动)　教学办公区网络：26536188
+            <br />版权所有&copy;深圳大学信息中心
+            <br />
+          </td>
+        </tr>
+      </div>
+    </div>
+  </body>
+</html>

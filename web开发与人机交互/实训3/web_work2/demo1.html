@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo1</title>
+    <link rel="shortcut icon" href="./szu.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <style>
+      .body {
+        width: 1300px;
+        height: 730px;
+        margin: 30px auto;
+        background-color: rgb(117, 239, 209);
+        border-radius: 20px;
+      }
+      .body h2 {
+        text-align: center;
+        line-height: 80px;
+        color: white;
+      }
+
+      hr {
+        background-color: red;
+        height: 2px;
+        border: none;
+      }
+
+      .nav {
+        width: 1200px;
+        height: 200px;
+        margin: 0px auto;
+        padding-top: 14px;
+      }
+
+      .nav ul {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav li {
+        width: 180px;
+        height: 156px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: rgba(255, 0, 0, 0) 1px solid;
+        transition: all 0.3s;
+      }
+
+      .nav li:hover {
+        border-bottom: rgba(255, 0, 0, 0.8) 4px solid;
+      }
+
+      .nav li h4 {
+        line-height: 26px;
+      }
+
+      .nav li div {
+        overflow: hidden;
+      }
+      .nav li img {
+        width: 180px;
+        height: 120px;
+        overflow: hidden;
+        transition: all 0.3s;
+      }
+
+      .nav li img:hover {
+        transform: scale(1.1);
+      }
+
+      .box {
+        width: 600px;
+        height: 400px;
+        margin: 0 auto;
+        background: pink;
+      }
+
+      .box img {
+        width: 600px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <h2>简易灯箱画廊设计</h2>
+      <hr />
+      <div class="nav">
+        <ul>
+          <li>
+            <h4>pic1</h4>
+            <div><img src="./image/t1.jpg" alt="" /></div>
+          </li>
+          <li>
+            <h4>pic2</h4>
+            <div><img src="./image/t2.jpg" alt="" /></div>
+          </li>
+          <li>
+            <h4>pic3</h4>
+            <div><img src="./image/t3.jpg" alt="" /></div>
+          </li>
+          <li>
+            <h4>pic4</h4>
+            <div><img src="./image/t4.jpg" alt="" /></div>
+          </li>
+          <li>
+            <h4>pic5</h4>
+            <div><img src="./image/t5.jpg" alt="" /></div>
+          </li>
+          <li>
+            <h4>pic6</h4>
+            <div><img src="./image/t6.jpg" alt="" /></div>
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <img src="./image/t1.jpg" alt="" />
+      </div>
+    </div>
+    <audio src="./source/Sleep Away.mp3" autoplay loop>
+      当前浏览器不支持播放
+    </audio>
+    <script>
+      const imgs = document.querySelectorAll(".nav img");
+      const big_img = document.querySelector(".box img");
+      for (let i = 0; i < imgs.length; i++) {
+        imgs[i].addEventListener("click", function () {
+          big_img.src = `./image/t${i + 1}.jpg`;
+        });
+      }
+    </script>
+  </body>
+</html>

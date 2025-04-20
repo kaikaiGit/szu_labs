@@ -1,0 +1,49 @@
+.banner .head{
+    text-align:center;
+    background-image: url(../image/zw_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20px 0;
+}
+
+.linkRead {
+    margin:10px 0px 20px;
+    padding: 10px 20px;
+    background-color: rgba(214, 212, 212,0.5);
+}
+
+.linkRead ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    justify-content: space-between;
+}
+
+.linkRead ul li {
+    width: 26%;
+    line-height: 30px;
+}
+
+.content {
+    padding: 10px 20px;
+}
+
+.content p{
+    text-indent: 2em;
+}
+
+
+.advantage {
+    margin: 0px 0px 10px;
+    padding: 0 10px;
+}
+
+.content h4 {
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.advantage h5 {
+    line-height: 30px;
+    font-size: 16px;
+}

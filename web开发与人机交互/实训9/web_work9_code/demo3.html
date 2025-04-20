@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>消息对话框综合应用</title>
+    <link href="./src/baidu.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/demo3.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <fieldset class="login-form">
+        <legend>消息对话框综合应用</legend>
+        <form>
+          <label for="username">你的姓名:</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            disabled
+            placeholder="请点击下方按钮输入！"
+          />
+          <br />
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            输入姓名
+          </button>
+          <button type="reset" class="btn btn-danger">清空</button>
+        </form>
+      </fieldset>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">脚本提示</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>请输入你的姓名：</p>
+              <input type="text" />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                取消
+              </button>
+              <button type="button" class="btn btn-primary check">确定</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/demo3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+.banner {
+  background-color: #fff;
+}
+.banner table {
+  width: 1014px;
+  height: 484px;
+  margin: 20px auto;
+  border-color: rgba(240, 240, 240, 0.8);
+  box-shadow: 1px 1px 6px 3px #f0f0f0;
+}
+.banner table h2 {
+  padding: 10px 15px;
+}
+.banner table td {
+  box-sizing: border-box;
+  padding: 3px;
+}
+.banner table h3 {
+  line-height: 50px;
+}
+.banner table .content td {
+  height: 210px;
+}
+.banner table .content td img {
+  height: 210px;
+}
+.banner table .content td:nth-child(2n+1) {
+  width: 156px;
+}
+.banner table .content td:nth-child(2n) {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 358px;
+}

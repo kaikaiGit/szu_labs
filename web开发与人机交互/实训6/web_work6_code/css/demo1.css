@@ -1,0 +1,56 @@
+.banner {
+  padding: 20px;
+  width: 900px;
+  background-color: #eaeaea;
+}
+.banner .title {
+  height: 60px;
+  margin-bottom: 10px;
+  background-image: url(../image/images61-4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banner .title h3 {
+  padding-left: 20px;
+  font-weight: 1000;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 0.98);
+}
+.banner table {
+  margin: 0 auto;
+  box-shadow: 1px 1px 6px 1px rgba(128, 128, 128, 0.8);
+}
+.banner table td,
+.banner table th {
+  text-align: center;
+  padding: 10px;
+}
+.banner table .head p,
+.banner table .head h4 {
+  text-align: left;
+}
+.banner table p {
+  line-height: 40px;
+  color: red;
+}
+.banner table h4 {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.banner table h4 a {
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: rgba(74, 172, 238, 0.7);
+}
+.banner table a:hover {
+  color: white;
+}
+.banner table tr:nth-child(1) {
+  background-color: #e1e1e1;
+}
+.banner table tr:nth-child(2n+3) {
+  background-color: #fbfbfb;
+}

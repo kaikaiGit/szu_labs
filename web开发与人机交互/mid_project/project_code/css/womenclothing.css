@@ -1,0 +1,110 @@
+body {
+  background-color: #f4f4f4;
+}
+.banner {
+  margin-top: 20px;
+  width: 1230px;
+  height: 686px;
+}
+.banner .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 5px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.banner .header .title {
+  font-weight: 550;
+}
+.banner .header img {
+  vertical-align: baseline;
+  height: 22px;
+}
+.banner .header .navtab ul {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .header .navtab ul span.split {
+  height: 14px;
+  width: 1px;
+  margin: auto 3px;
+  background-color: #667cab;
+}
+.banner .header .navtab ul li a {
+  display: block;
+  padding: 3px 10px;
+  text-align: center;
+}
+.banner .content .detail {
+  display: flex;
+}
+.banner .content .detail .pic {
+  position: relative;
+  width: 330px;
+  height: 474px;
+  background-image: url(../images/di10ceng1.jpg);
+}
+.banner .content .detail .pic img {
+  position: absolute;
+  top: 250px;
+  opacity: 0.7;
+}
+.banner .content .detail .pic .buttom {
+  display: flex;
+  width: 100%;
+  padding: 10px 4px 10px 26px;
+  font-size: 14px;
+  justify-content: space-between;
+  background-color: #e0e9eb;
+  position: absolute;
+  bottom: 0px;
+  color: #a2abab;
+}
+.banner .content .detail .pic .buttom ul {
+  width: 50%;
+}
+.banner .content .detail .pic .buttom ul li {
+  line-height: 2em;
+}
+.banner .content .detail .infoList {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  height: 474px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.banner .content .detail .infoList .info {
+  width: 24.1%;
+  height: 48.8%;
+  box-sizing: border-box;
+  padding: 6px 14px;
+  position: relative;
+  background-color: #fff;
+}
+.banner .content .detail .infoList .info img {
+  display: block;
+  height: 130px;
+  margin: 0px auto;
+}
+.banner .content .detail .infoList .info .text {
+  font-size: 13px;
+  color: #666666;
+  margin: 12px 0;
+}
+.banner .content .detail .infoList .info .price {
+  color: red;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 12px;
+}
+.banner .content .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .content .nav img {
+  height: 100%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中国教育网络</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="shortcut icon" href="./src/szu.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/demo1.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="head">
+        <h3>《中国教育网络》杂志简介</h3>
+        <p></p>
+      </div>
+      <div class="linkRead">
+        <h4 style="line-height: 33px;">>>推荐阅读</h3>
+        <ul>
+          <li><a href="#">COST论坛“迎新”系列视频讲座</a></li>
+          <li><a href="#">技术应用设计 百所高校IPv6蝶变</a></li>
+          <li><a href="#">教育信息化关注“十二五”规划</a></li>
+          <li><a href="#">2010下一代互联网发展与应用论坛</a></li>
+          <li><a href="#">教育信息化服务器应用突破壁垒</a></li>
+          <li><a href="#">强调应用 移动IPv6发展空间无限</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div>
+            <p>
+            2004年12月，《中国教育网络》杂志正式出版发行。经国家新闻出版署、科技部批准，教育部主管，教育部科技发展中心主办，中国教育和科研计算机网(CERNET)承办的国家级权威科技期刊《中国教育网络》正式出版发行。
+            </p>
+            <br>
+            <p>立足教育网络，服务于教育信息化，《中国教育网络》关注和解读国家信息化发展政策，全面报道中国教育网络建设现状及成就，研究探讨教育网络建设的经验与问题。介绍国际上先进的网络技术、理念，及时报道相关政策及重大事件，广泛反映围绕教育信息化的各种重大应用及重大事件，为领导、专家、师生及技术人员提供借鉴。</p>
+            <br>
+            <p>依托高校及社会各界的优秀专家，《中国教育网络》突出权威性、政策性、前瞻性，为专家及业界人士提供一个权威的交流与沟通平台。《中国教育网络》已成为中国最具影响力、权威性的专业期刊，已成为与中国教育信息化同步发展的核心媒体。</p>
+        </div>
+        <h4>杂志优势</h4>
+        <div class="advantage">
+            <h5>强有力的政府指导</h5>
+            <p>在教育部及相关部门的指导下，及时准确地传达、贯彻教育信息化发展的方针、政策、法规等，保证中国教育网络健康发展，推动教育网络建设与应用。</p>
+            <br>
+            <h5>权威的专家队伍</h5>
+            <p>依托CERNET及教育信息化领域最权威的专家组成的编辑委员会，《中国教育网络》将为读者提供高水准的内容，为工作提供高起点的业务及技术指导。</p>
+            <br>
+            <h5>影响未来的用户群</h5>
+            <p>《中国教育网络》用户群以教育领域从事互联网建设及应用的领导、专家、教师、科研人员为主，在该领域具有强大的影响力。</p>
+            <br>
+            <h5>遍布全国的渠道</h5>
+            <p>依托各地方教委及CERNET，《中国教育网络》将建设遍布全国的记者站，伴随教育网络的建设及拓展，中国教育网络在为读者服务的同时，也将不断壮大自己的渠道网络。</p>
+        </div>
+      </div>
+    </div>
+    <script>
+
+        let getTime = function(){
+            const time = new Date()
+            const date_text = document.querySelector('.head p')
+            let month = time.getMonth()+1;
+            month = month < 10?'0'+month:month;
+            let day = time.getDate();
+            day = day < 10?'0'+day:day;
+            let hour = time.getHours();
+            hour = hour < 10?'0'+hour:hour;
+            let minute = time.getMinutes();
+            let seconds = time.getSeconds();
+            seconds = seconds < 10?'0'+seconds:seconds;
+            minute = minute < 10?'0'+minute:minute;
+            date_text.innerHTML = `
+            定稿时间：2016-03-03 00:00:00
+            <br>
+            当前时间：${time.getFullYear()}-${month}-${day} ${hour}:${minute}:${seconds}`
+        }
+        getTime();
+        setInterval(getTime,1000);
+    </script>
+  </body>
+</html>

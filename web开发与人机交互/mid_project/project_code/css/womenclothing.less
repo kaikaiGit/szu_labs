@@ -1,0 +1,117 @@
+body{
+    background-color: #f4f4f4;
+}
+.banner{
+    margin-top: 20px;
+    width: 1230px;
+    height: 686px;
+    // background-color: pink;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-left: 5px;
+        font-size: 14px;
+        margin-bottom: 6px;
+        .title{
+            font-weight: 550;
+        }
+        img{
+            vertical-align: baseline;
+            height: 22px;
+        }
+        .navtab{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                span.split{
+                    height: 14px;
+                    width: 1px;
+                    margin: auto 3px;
+                    background-color: #667cab;
+                }
+                li{
+                    a{
+                        display: block;
+                        padding: 3px 10px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        .detail{
+            display: flex;
+            .pic{
+                position: relative;
+                width: 330px;
+                height: 474px;
+                background-image: url(../images/di10ceng1.jpg);
+                img{
+                    position: absolute;
+                    top: 250px;
+                    opacity: 0.7;
+                }
+                .buttom{
+                    display: flex;
+                    width: 100%;
+                    padding: 10px 4px 10px 26px;
+                    font-size: 14px;
+                    justify-content: space-between;
+                    background-color: #e0e9eb;
+                    position: absolute;
+                    bottom: 0px;
+                    color: #a2abab;
+                    ul{
+                        width: 50%;
+                        li{
+                            line-height: 2em;
+                        }
+                    }
+                }
+            }
+            .infoList{
+                flex: 1;
+                display: flex;
+                flex-wrap: wrap;
+                height: 474px;
+                justify-content: space-between;
+                align-content: space-between;
+                .info{
+                    width: 24.1%;
+                    height: 48.8%;
+                    box-sizing: border-box;
+                    padding: 6px 14px;
+                    position: relative;
+                    background-color: #fff;
+                    img{
+                        display: block;
+                        height: 130px;
+                        margin: 0px auto;
+                    }
+                    .text{
+                        font-size: 13px;
+                        color: #666666;
+                        margin: 12px 0;
+                    }
+                    .price{
+                        color: red;
+                        font-weight: 600;
+                        font-size: 18px;
+                        margin-bottom: 0;
+                        position: absolute;
+                        bottom: 12px;
+                    }
+                }
+            }
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            img{
+                height: 100%;
+            }
+        }
+    }
+}

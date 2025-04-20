@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo2</title>
+    <link rel="shortcut icon" href="./szu.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <style>
+      h1 {
+        line-height: 80px;
+        text-align: center;
+      }
+      hr {
+        height: 2px;
+        border: none;
+        background-color: blue;
+      }
+      .text p {
+        display: block;
+        width: 700px;
+        height: 300px;
+        margin: 14px auto;
+        padding: 38px 0;
+        text-align: center;
+        font-weight: 550;
+        color: rgb(25, 25, 149);
+        line-height: 30px;
+        border: 2px solid rgb(219, 219, 215);
+        border-radius: 20px;
+      }
+      .media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 10px 0 10px;
+        padding: 30px 50px;
+        background-color: greenyellow;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .media video,
+      audio {
+        width: 400px;
+      }
+
+      .bottom {
+        height: 30px;
+        line-height: 30px;
+        margin: 0 10px;
+        padding-left: 65%;
+        color: wheat;
+        background-color: rgb(53, 119, 242);
+        border-radius: 0 0 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>明月几时有</h1>
+    <hr />
+    <div class="text">
+      <p>
+        明月几时有？把酒问青天。<br />
+        不知天上宫阙，今夕是何年。<br />
+        我欲乘风归去，又恐琼楼玉宇，高处不胜寒，起舞弄清影，何似在人间。<br />
+        转朱阁，抵绮户，照无眠。<br />
+        不应有恨，何事偏向别时圆。 <br />
+        人有悲欢离合，月有阴晴圆缺，此事古难全。 <br />
+        但愿人长久，千里共婵娟。
+      </p>
+    </div>
+    <hr style="background-color: red" />
+    <div class="media">
+      <video src="./source/htmlexample.mpeg" controls="controls"></video>
+      <audio src="./source/蔡琴明月几时有.mp3" controls></audio>
+      <video src="./source/62.swf" controls></video>
+    </div>
+    <div class="bottom">欢迎来到我的多媒体世界！</div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+.banner {
+    padding: 10px 20px 20px;
+    border-radius: 6px;
+}
+
+.banner h2 {
+    line-height: 60px;
+}
+
+.banner .content{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+.banner .content .left {
+    text-align: center;
+}
+
+.banner .content img {
+    margin: 5px;
+    box-shadow: 1px 1px 5px 1px gray;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+.banner .right {
+    padding: 10px 20px;
+}
+
+.banner .right .title,.comment,.about {
+    text-align: center;
+}
+
+.banner .right .comment {
+    color: gray;
+    margin-left: 130px;
+}
+
+.right .detail{
+    margin-top: 10px;
+}
+
+.right .about span:last-child{
+    margin-left: 10px;
+    color: red;
+    font-weight: 550;
+}
+
+.right .price {
+    margin-top: 5px;
+}
+
+.right .price span:nth-child(2){
+    color: red;
+}
+
+.right .price span:last-child{
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+
+.smallTitle {
+    font-weight: 600;
+}
+
+.left button{
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: all .3s;
+}
+
+.left button:hover{
+    transform: translateY(-3px);
+}

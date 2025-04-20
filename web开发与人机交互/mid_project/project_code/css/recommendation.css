@@ -1,0 +1,73 @@
+.banner {
+  margin-top: 10px;
+  width: 1220px;
+}
+.banner h3 {
+  line-height: 50px;
+  padding-left: 8px;
+}
+.banner .content {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .content .goods {
+  display: flex;
+}
+.banner .content .goods h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 56px;
+}
+.banner .content .goods .new_find {
+  width: 400px;
+  background-color: #f7f7f7;
+}
+.banner .content .goods .good_obj {
+  width: 222px;
+}
+.banner .content .goods .brand_street {
+  width: 400px;
+  background-color: #f7f7f7;
+}
+.banner .content .goods div.big {
+  width: 100%;
+}
+.banner .content .goods .pic {
+  display: inline-block;
+  width: 49.4%;
+  position: relative;
+}
+.banner .content .goods .pic img {
+  width: 100%;
+}
+.banner .content .goods .pic .text {
+  position: absolute;
+  left: 6%;
+  top: 22%;
+}
+.banner .content .goods .pic .text h5 {
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 30px;
+}
+.banner .content .goods .pic .text p {
+  margin: 0 0;
+  font-size: 13px;
+}
+.banner .content .goods .pic .text span {
+  color: #c81623;
+  font-size: 13px;
+}
+.banner .content .brand {
+  width: 179px;
+}
+.banner .content .brand img {
+  height: 100%;
+}
+.banner .advert {
+  margin-top: 16px;
+}
+.banner .advert img {
+  width: 100%;
+}

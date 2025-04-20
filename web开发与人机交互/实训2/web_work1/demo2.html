@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css" />
+
+    <style>
+      .news {
+        width: 400px;
+        height: 250px;
+        margin: 100px auto;
+        padding: 10px;
+        padding-top: 20px;
+        background-color: rgba(225, 224, 224, 0.5);
+        border-radius: 10px;
+      }
+
+      .news .head {
+        background-color: darkgray;
+        padding-left: 10px;
+      }
+
+      .title ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 5px;
+      }
+
+      .title li:hover {
+        font-size: 17px;
+        background-color: rgba(255, 192, 203, 0.8);
+      }
+
+      .title ul li {
+        width: 80px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+        background-color: #f5f6f9;
+        border-radius: 4px;
+      }
+
+      .content ul {
+        list-style: disc;
+        color: blue;
+        margin-left: 20px;
+        line-height: 26px;
+      }
+
+      .content li:hover {
+        color: red;
+        font-size: 17px;
+        background-color: white;
+      }
+
+      .content ul li a {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="news">
+      <div class="head">
+        <h3>科研发展</h3>
+      </div>
+      <div class="title">
+        <ul>
+          <li><a href="#">高校咨询</a></li>
+          <li><a href="#">科研前沿</a></li>
+          <li><a href="#">成果展示</a></li>
+          <li><a href="#">学术会议</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <ul>
+          <li><a href="#">国防科技大学员问鼎2014国际数模竞赛最高奖</a></li>
+          <li><a href="#">同济大学教授阮仪三获2014亨利•霍普•里德奖</a></li>
+          <li><a href="#">中科大徐春叶教授获2014年国际材料科学奖</a></li>
+          <li><a href="#">北京和睦家医院肺癌诊疗会诊中心成立</a></li>
+          <li><a href="#">兰州大学博士生获全国优秀博士学位论文提名</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>改变新闻网页中字号</title>
+    <link href="./src/baidu.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/demo1.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <h2>用JavaScript改变新闻网页中字号</h2>
+      <div class="bar">
+        <p>
+          选择字号【 <span data-size="1">小</span><span data-size="2">中</span
+          ><span data-size="3">大</span> 】
+        </p>
+      </div>
+      <div class="content">
+        <p>
+          JavaScript是一种能让你的网页更加生动活泼的程式语言，也是目前网页中设计中最容易学又最方便的语言。你可以利用JavaScript轻易的做出亲切的欢迎讯息、漂亮的数字钟、有广告效果的跑马灯及简易的选举，还可以显示浏览器停留的时间。让这些特殊效果提高网页的可观性。
+        </p>
+      </div>
+    </div>
+    <script>
+      const buttons = document.querySelectorAll(".bar p span");
+      const text = document.querySelector(".content p");
+      function clear_color() {
+        for (let i = 0; i < buttons.length; i++) {
+          buttons[i].style.color = "#888888";
+        }
+      }
+      buttons.forEach((button) => {
+        button.addEventListener("click", function (e) {
+          if (e.target.dataset.size == "1") {
+            text.style.fontSize = "16px";
+            clear_color();
+            buttons[0].style.color = "pink";
+          } else if (e.target.dataset.size == "2") {
+            text.style.fontSize = "18px";
+            clear_color();
+            buttons[1].style.color = "pink";
+          } else if (e.target.dataset.size == "3") {
+            text.style.fontSize = "20px";
+            clear_color();
+            buttons[2].style.color = "pink";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

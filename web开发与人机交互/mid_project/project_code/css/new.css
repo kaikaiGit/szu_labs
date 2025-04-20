@@ -1,0 +1,66 @@
+.banner {
+  margin-top: 20px;
+  width: 1030px;
+}
+.banner .title {
+  text-align: center;
+}
+.banner .title h4 {
+  line-height: 36px;
+  font-size: 26px;
+}
+.banner .title p {
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.banner .title .line {
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #aebcfa;
+  margin-bottom: 40px;
+}
+.banner .new_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.banner .new_box .new {
+  width: 49%;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.banner .new_box .new .pic {
+  width: 195px;
+  height: 120px;
+}
+.banner .new_box .new .pic img {
+  width: 100%;
+}
+.banner .new_box .new .text {
+  flex: 1;
+  padding: 6px 12px;
+}
+.banner .new_box .new .text h5 {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 0;
+}
+.banner .new_box .new .text span {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin: 5px 0 10px;
+}
+.banner .new_box .new .text p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.banner .new_box .new:hover {
+  cursor: pointer;
+}
+.banner .new_box .new:hover h5 {
+  color: #c81623;
+}

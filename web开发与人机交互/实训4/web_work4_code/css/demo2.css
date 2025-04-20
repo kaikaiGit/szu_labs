@@ -1,0 +1,83 @@
+.banner {
+    width: 700px;
+    padding: 10px 10px 20px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.8);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.8;
+}
+
+.banner ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.banner ul li {
+    position: relative;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 190px;
+    height: 208px;
+    overflow: hidden; 
+    border: 2px solid rgba(255, 0, 0,0);
+    box-shadow: 2px 2px 6px 1px gray;
+}
+
+ul li a {
+    display: block;
+    width: 186px;
+    height: 204px;
+    transition: all 0.4s;
+    
+}
+
+ul li:nth-child(1) a{
+    background-image: url(../image/image41-1.jpg);
+}
+ul li:nth-child(2) a{
+    background-image: url(../image/image41-2.jpg);
+}
+ul li:nth-child(3) a{
+    background-image: url(../image/image41-3.jpg);
+}
+ul li:nth-child(4) a{
+    background-image: url(../image/image41-4.jpg);
+}
+ul li:nth-child(5) a{
+    background-image: url(../image/image41-5.jpg);
+}
+ul li:nth-child(6) a{
+    background-image: url(../image/image41-6.jpg);
+}
+
+ul li:hover{ 
+    border: 2px solid rgba(255, 0, 0, 1);   
+}
+
+ul li:hover a{
+    transform: scale(1.1);
+}
+
+ul li .active {
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.4s;
+    bottom: -50pxpx;
+    background-color: rgba(255, 0, 0,0.5);
+}
+
+ul li:hover>.active{
+    transform: translateY(-50px);
+}
