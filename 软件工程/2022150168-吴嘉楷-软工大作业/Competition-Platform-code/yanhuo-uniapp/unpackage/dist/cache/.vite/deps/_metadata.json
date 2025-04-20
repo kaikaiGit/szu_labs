@@ -1,0 +1,25 @@
+{
+  "hash": "c5d9dbe1",
+  "configHash": "a0bc2703",
+  "lockfileHash": "f0af7efb",
+  "browserHash": "4282fc93",
+  "optimized": {
+    "@/node_modules/GOEASY-IM/js_sdk/goeasy-2.8.3.esm.min.js": {
+      "src": "../../../../../node_modules/GOEASY-IM/js_sdk/goeasy-2.8.3.esm.min.js",
+      "file": "@_node_modules_GOEASY-IM_js_sdk_goeasy-2__8__3__esm__min__js.js",
+      "fileHash": "932c3197",
+      "needsInterop": false
+    },
+    "plus-websocket": {
+      "src": "../../../../../node_modules/plus-websocket/out/index.js",
+      "file": "plus-websocket.js",
+      "fileHash": "5dabecdb",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
+}

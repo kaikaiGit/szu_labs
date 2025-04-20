@@ -1,0 +1,32 @@
+.container {
+	padding: 100rpx 100rpx;
+}
+
+.top {
+	padding-top: 40px;
+}
+
+.title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.main {
+	margin-top: 200rpx;
+
+}
+
+.info-input {
+	margin-top: 10px;
+	height: 60rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.code {
+	display: flex;
+	align-items: center;
+}
+
+.regist {
+	margin-top: 60px;
+}
